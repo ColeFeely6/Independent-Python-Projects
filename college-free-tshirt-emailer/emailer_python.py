@@ -3,7 +3,7 @@ import spreadsheet_python as sp
 #import testspreadsheet_python as ts
 
 
-my_email = 'colehfeely@gmail.com'
+my_email = 'your@email.com'
 my_password = ''
 
 with smtplib.SMTP('smtp.gmail.com',587) as smtp:
