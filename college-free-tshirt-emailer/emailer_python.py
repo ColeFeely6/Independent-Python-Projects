@@ -18,7 +18,7 @@ with smtplib.SMTP('smtp.gmail.com',587) as smtp:
     
     
     
-    for i in range(1632,len(sp.names)):
+    for i in range(0,len(sp.names)):
         print(sp.names[i],i)
         print(sp.emails[i])
         subject = 'Consider attending in the spring'
