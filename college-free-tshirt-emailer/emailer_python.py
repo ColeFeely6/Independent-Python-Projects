@@ -4,7 +4,7 @@ import spreadsheet_python as sp
 
 
 my_email = 'colehfeely@gmail.com'
-my_password = 'Sonictine@393'
+my_password = ''
 
 with smtplib.SMTP('smtp.gmail.com',587) as smtp:
     smtp.ehlo()
